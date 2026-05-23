@@ -1,0 +1,17 @@
+# Project-specific large/binary files
+Data/
+Data.rar
+Hackathon_Presentation.pdf
+
+# Python/Jupyter common artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Training outputs
+runs/
+yolov8_training/
+*.pt
+*.onnx
+*.engine
+*.tflite
