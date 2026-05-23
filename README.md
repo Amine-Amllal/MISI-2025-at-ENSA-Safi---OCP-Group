@@ -2,6 +2,10 @@
 
 This project was built for **Hackaton Safi 2025** and focuses on detecting visual defects in sardine can seaming using a YOLOv8 object detection pipeline.
 
+## Achievement
+
+We won **1st place** in this competition.
+
 ## Project Goal
 
 Build an automated computer vision workflow that can identify seaming defects from images, helping quality control processes become faster and more consistent.
@@ -9,9 +13,6 @@ Build an automated computer vision workflow that can identify seaming defects fr
 ## Repository Contents
 
 - `training (1).ipynb`: Main notebook used for training, evaluation, and inference.
-- `Data/`: Local image data folder (ignored by Git).
-- `Data.rar`: Compressed data archive (ignored by Git).
-- `Hackathon_Presentation.pdf`: Project presentation (ignored by Git).
 
 ## Training Workflow (from the notebook)
 
@@ -50,9 +51,10 @@ This workflow is designed for **Google Colab** (GPU recommended), then exporting
 - The notebook currently contains a Roboflow API key in plain text. It is strongly recommended to move it to an environment variable or secret manager before sharing publicly.
 - Large datasets and binary assets are intentionally excluded from version control via `.gitignore`.
 
-## Next Improvements
+## Team
 
-- Add a reproducible `requirements.txt` (or `environment.yml`).
-- Add a lightweight inference script (`predict.py`) for production/local testing.
-- Track experiments and metrics in a structured log (e.g., CSV/MLflow/W&B).
+I participated in this competition with the following teammates:
 
+- ZOUGA Mouhcine
+- FARIS Amine
+- EL MADANI Adam
